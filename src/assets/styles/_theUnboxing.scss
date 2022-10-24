@@ -1,0 +1,85 @@
+.unboxing {
+    margin-top: 122px;
+
+    @media (max-width: 767px) {
+        margin-top: 52px;
+    }
+
+    .container {
+        padding: 0 150px;
+
+        @media (max-width: 1279px) {
+            padding: 0 90px;
+        }
+
+        @media (max-width: 767px) {
+            padding: 0 50px;
+        }
+    }
+}
+
+.unboxing-slogan {
+    margin-top: 32px;
+    font-size: 32px;
+    color: $btn-hover-color;
+    text-align: center;
+
+    @media (max-width: 767px) {
+        margin-top: 11px;
+        font-size: 16px;
+    }
+}
+
+.unboxing-container {
+    margin-top: 48px;
+}
+
+.unboxing-content {
+    padding-left: 56px;
+    color: $default-color;
+
+    @media (max-width: 767px) {
+        padding-left: 0;
+    }
+
+    &__title {
+        margin-top: 22px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 32px;
+
+        @media (max-width: 767px) {
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        text-align: right;
+
+        .goToLink {
+            @media (max-width: 767px) {
+                padding: 13px 60px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        margin-bottom: 48px;
+        font-size: 20px;
+        line-height: 29px;
+
+        @media (max-width: 767px) {
+            font-size: 15px;
+        }
+    }
+}

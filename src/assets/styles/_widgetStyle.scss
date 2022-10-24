@@ -1,0 +1,143 @@
+/** GoToLinkBtn */
+.goToLink {
+    padding: 13px 44px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    background: $default-color;
+
+    &:hover {
+        background: $btn-hover-color;
+    }
+}
+
+/** SwiperImg */
+
+:deep(.swiper) {
+    padding-bottom: 2em;
+}
+
+:deep(.swiper-pagination-bullet) {
+    background: #d2d2d2;
+}
+
+:deep(.swiper-pagination-bullet-active) {
+    background: #636363;
+}
+
+:deep(.swiper-button-next) {
+    right: 0;
+    width: 40px;
+    background: url("@/assets/images/arrow-r.png") no-repeat;
+    transform: .3s;
+
+    &:hover {
+        background: url("@/assets/images/arrow-r__hover.png") no-repeat;
+        transform: .3s;
+    }
+
+    &::after {
+        content: "";
+    }
+}
+
+:deep(.swiper-button-prev) {
+    left: 0;
+    width: 40px;
+    background: url("@/assets/images/arrow-l.png") no-repeat;
+    transform: .3s;
+
+    &:hover {
+        background: url("@/assets/images/arrow-l__hover.png") no-repeat;
+        transform: .3s;
+    }
+
+    &::after {
+        content: "";
+    }
+}
+
+/** title H2 */
+.title {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        position: relative;
+        display: inline-block;
+        padding: 16px 64px;
+        font-size: 40px;
+        line-height: 58px;
+        letter-spacing: 3px;
+        color: $default-h2;
+        background: $default-color;
+        border-radius: 1em 99em 99em;
+
+        @media (max-width: 767px) {
+            padding: 12px 22px;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -1em;
+            left: -.8em;
+            width: 27px;
+            height: 25px;
+            background: url("@/assets/images/title__point.png") no-repeat;
+            background-size: contain;
+
+            @media (max-width: 767px) {
+                top: -1.5em;
+                left: -.5em;
+                width: 14px;
+                height: 12px;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 8px;
+            z-index: -1;
+            width: 100%;
+            height: calc(100% + 16px);
+            background: $default-h2;
+            border-radius: 1em 99em 99em;
+
+            @media (max-width: 767px) {
+                top: -4px;
+                left: 4px;
+                height: calc(100% + 8px);
+            }
+        }
+    }
+
+    :deep(span) {
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+        font-size: 2em;
+        line-height: 0;
+        color: #fff;
+        transform: translateY(-6px);
+    }
+
+    &.mode2 {
+        @media (max-width: 767px) {
+            h2 {
+                border-radius: 2px 15px 15px;
+
+                &::after {
+                    border-radius: 2px 20px 20px;
+                }
+            }
+        }
+    }
+}

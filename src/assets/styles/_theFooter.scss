@@ -1,0 +1,18 @@
+footer {
+    margin-top: 255px;
+    padding: 28px 0;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+
+    @media (max-width: 767px) {
+        margin-top: 71px;
+        padding: 13px 0 11px;
+        font-size: 10px;
+    }
+
+    img {
+        padding: 0 10px;
+    }
+}

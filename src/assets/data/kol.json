@@ -1,0 +1,41 @@
+[
+    {
+        "id": "kol-1",
+        "blogName": "Berry mom",
+        "link": " https://girl110915.pixnet.net/blog",
+        "description": "伊萊克斯秉持著讓生活更加精采精神，重新定義料理美味、衣物呵護、美好的居家生活環境，百年來堅持提供消費者高品質家電產品。伊萊克斯身為全球家電領導品牌，我們所提供的一切以消費者的最佳體驗為出發點。伊萊克斯秉持著讓生活更加精采精神，重新定義料理美味、衣物呵護、美好的居家生活環境，百年來堅持提供消費者高品質家電產品。",
+        "kolImg": [
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png"
+        ]
+    },
+    {
+        "id": "kol-2",
+        "blogName": "小米的雪兒賴虎",
+        "link": " https://mimisa317.pixnet.net/blog",
+        "description": "伊萊克斯的獨特淨污分流清洗系統,以內外雙槽的聰明設計去污存淨,將淨水與污水完全分離,讓拖布在每趟拖地,都能以真正乾淨的狀態完成濕拖。",
+        "kolImg": [
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png"
+        ]
+    },
+    {
+        "id": "kol-3",
+        "blogName": "Riin’s life 好感生活",
+        "link": "https://riintravel.tw/blog",
+        "description": "清洗LED免沾手濕拖吸頭時,只要放置在清洗槽上方並壓下等待20-30秒,即可將超細纖維清潔布上的髒污徹底洗淨並刮乾。清洗槽的1.6公升超大容量,讓您一次打掃16坪空間*。而拖布清潔完畢後,污水能經由淨污分流清洗槽側邊排水孔集中排出,清潔過程絕不沾手,更無需擔心弄髒水槽。",
+        "kolImg": [
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png",
+            "test1.png"
+        ]
+    }
+]
