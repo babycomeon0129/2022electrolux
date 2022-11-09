@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<script setup leng="ts">
+<script lang="ts" setup>
 import SwiperImg from '@/components/widget/SwiperImg.vue';
 
 const moreInfoImg = [

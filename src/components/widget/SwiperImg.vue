@@ -6,7 +6,7 @@
     </swiper>
 </template>
 
-<script setup leng="ts">
+<script lang="ts" setup>
 import { defineProps } from 'vue';
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -20,7 +20,7 @@ const props = defineProps({
     images: Array,
 });
 
-const imgSrc = (imgName) => require(`@/assets/images/${imgName}`);
+const imgSrc = (imgName: string | unknown): string => require(`@/assets/images/${imgName}`);
 </script>
 
 <style lang="scss" scoped>

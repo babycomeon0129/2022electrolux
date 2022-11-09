@@ -24,7 +24,7 @@
     </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import TitleH2 from '@/components/widget/TitleH2.vue';
 import GotoLinkBtn from '@/components/widget/GoToLinkBtn.vue';
 import SwiperImg from '@/components/widget/SwiperImg.vue';

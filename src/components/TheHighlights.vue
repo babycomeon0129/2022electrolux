@@ -48,14 +48,14 @@
     </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import TitleH2 from '@/components/widget/TitleH2.vue';
 import SwiperImg from '@/components/widget/SwiperImg.vue';
 
 import highlightsData from '@/assets/data/highlights.json';
 
-const imgSrc = (imgName) => require(`@/assets/images/${imgName}`);
-const aosAnimate = (index) => (index % 2 === 0 ? 'fade-right' : 'fade-left');
+const imgSrc = (imgName: string): string => require(`@/assets/images/${imgName}`);
+const aosAnimate = (index: number): string => (index % 2 === 0 ? 'fade-right' : 'fade-left');
 </script>
 
 <style lang="scss" scoped>

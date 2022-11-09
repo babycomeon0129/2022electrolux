@@ -26,14 +26,14 @@
     </div>
 </template>
 
-<script setup leng="ts">
+<script lang="ts" setup>
 import TitleH2 from '@/components/widget/TitleH2.vue';
 import SwiperImg from '@/components/widget/SwiperImg.vue';
 import GotoLinkBtn from '@/components/widget/GoToLinkBtn.vue';
 
 import kolData from '@/assets/data/kol.json';
 
-const aosAnimate = (index) => (index % 2 === 0 ? 'fade-right' : 'fade-left');
+const aosAnimate = (index: number): string => (index % 2 === 0 ? 'fade-right' : 'fade-left');
 </script>
 
 <style lang="scss" scoped>

@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<script setup leng="ts">
+<script lang="ts" setup>
 import { defineProps } from 'vue';
 
 const props = defineProps({

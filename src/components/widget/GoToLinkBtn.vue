@@ -2,7 +2,7 @@
     <a class="goToLink btn" :href="props.url" target="_blank">{{ props.btnName }}</a>
 </template>
 
-<script setup leng="ts">
+<script lang="ts" setup>
 import { defineProps } from 'vue';
 
 const props = defineProps({

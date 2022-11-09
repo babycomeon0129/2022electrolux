@@ -23,7 +23,6 @@ module.exports = {
             eslintIntegration: true,
             stylelintIntegration: true,
             singleQuote: true,
-            endOfLine: 'lf',
         }],
     },
 };
