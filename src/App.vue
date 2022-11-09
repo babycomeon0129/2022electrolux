@@ -1,27 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <TheHeader />
+    <PainPoints />
+    <main>
+        <TheUnboxing />
+        <KolRecommend />
+        <TheHighlights />
+        <MoreInfo />
+    </main>
+    <TheFooter />
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import HelloWorld from "./components/HelloWorld.vue";
+<script setup lang="ts">
+import { onMounted } from 'vue';
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
+import TheHeader from '@/components/TheHeader.vue';
+import PainPoints from '@/components/PainPoints.vue';
+import TheUnboxing from '@/components/TheUnboxing.vue';
+import KolRecommend from '@/components/KolRecommend.vue';
+import TheHighlights from '@/components/TheHighlights.vue';
+import MoreInfo from '@/components/MoreInfo.vue';
+import TheFooter from '@/components/TheFooter.vue';
+
+import AOS from 'aos';
+
+onMounted(() => {
+    AOS.init();
+});
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
